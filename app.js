@@ -36,7 +36,7 @@ function yourLocation(event) {
 }
 
 let currentlocation = document.querySelector("#your-location");
-currentlocation = addEventListener("click", yourLocation);
+currentlocation.addEventListener("click", yourLocation);
 //-----------------------------------------------------------
 //Date
 let now = new Date();
